@@ -1,0 +1,19 @@
+<ng-progress [minimum]="0.8" [maximum]="1" [color]="'white'" [speed]="400" [trickleSpeed]="400" [showSpinner]="false"
+    [thick]="false" [ease]="'linear'" [toggle]="true">
+</ng-progress>
+
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <img style="padding-right: 10px;" src="assets/svg/logo.svg" width="40" alt="">
+        <span>Sistema </span>
+
+        <!-- <span class="example-spacer"></span>
+
+        <div class="example-icon">
+            <img *ngIf="permissao == 1"  src="assets/svg/boss.svg" width="40" alt="">
+            <img *ngIf="permissao == 2" src="assets/svg/customer.svg" width="40" alt="">
+        </div> -->
+
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
